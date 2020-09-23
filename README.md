@@ -49,6 +49,11 @@ Use `getpapers --help` to see the command-line help:
 
 By default, getpapers uses the EuropePMC API.
 
+## Docker
+
+If you want to run in Docker the shell script `run_paper_get.sh` should just run on Linux and Mac(?, Mac is unconfirmed). If you want to change what you are searching for change the term in the quotation marks at the end of `run_paper_get.sh`.
+If you are working on windows you should be able to run the shell script in the docker tool/powershell but this is unconfirmed since I work entirely in Ubuntu 18.
+
 ## Screenshot
 
 ![screenshot](https://raw.githubusercontent.com/ContentMine/getpapers/master/docs/screenshot.png)
